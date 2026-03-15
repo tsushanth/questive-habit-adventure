@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		QV001001001001001001 /* QuestiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF001001001001001001 /* QuestiveApp.swift */; };
+		QV002002002002002002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF002002002002002002 /* AppDelegate.swift */; };
+		QV003003003003003003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF003003003003003003 /* ContentView.swift */; };
+		QV004004004004004004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF004004004004004004 /* Models.swift */; };
+		QV005005005005005005 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF005005005005005005 /* StoreKitManager.swift */; };
+		QV006006006006006006 /* PremiumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF006006006006006006 /* PremiumManager.swift */; };
+		QV007007007007007007 /* ATTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF007007007007007007 /* ATTService.swift */; };
+		QV008008008008008008 /* AttributionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF008008008008008008 /* AttributionManager.swift */; };
+		QV009009009009009009 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF009009009009009009 /* AnalyticsService.swift */; };
+		QV010010010010010010 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF010010010010010010 /* GameEngine.swift */; };
+		QV011011011011011011 /* QuestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF011011011011011011 /* QuestViewModel.swift */; };
+		QV012012012012012012 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF012012012012012012 /* CharacterViewModel.swift */; };
+		QV013013013013013013 /* QuestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF013013013013013013 /* QuestListView.swift */; };
+		QV014014014014014014 /* AddQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF014014014014014014 /* AddQuestView.swift */; };
+		QV015015015015015015 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF015015015015015015 /* CharacterView.swift */; };
+		QV016016016016016016 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF016016016016016016 /* ShopView.swift */; };
+		QV017017017017017017 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF017017017017017017 /* AchievementsView.swift */; };
+		QV018018018018018018 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = QF018018018018018018 /* PremiumView.swift */; };
+		QV019019019019019019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = QF019019019019019019 /* Assets.xcassets */; };
+		QV020020020020020020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = QF020020020020020020 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		QF001001001001001001 /* QuestiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestiveApp.swift; sourceTree = "<group>"; };
+		QF002002002002002002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		QF003003003003003003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; name = ContentView.swift; };
+		QF004004004004004004 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		QF005005005005005005 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		QF006006006006006006 /* PremiumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumManager.swift; sourceTree = "<group>"; };
+		QF007007007007007007 /* ATTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTService.swift; sourceTree = "<group>"; };
+		QF008008008008008008 /* AttributionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributionManager.swift; sourceTree = "<group>"; };
+		QF009009009009009009 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		QF010010010010010010 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		QF011011011011011011 /* QuestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewModel.swift; sourceTree = "<group>"; };
+		QF012012012012012012 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		QF013013013013013013 /* QuestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestListView.swift; sourceTree = "<group>"; };
+		QF014014014014014014 /* AddQuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestView.swift; sourceTree = "<group>"; };
+		QF015015015015015015 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		QF016016016016016016 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		QF017017017017017017 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		QF018018018018018018 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		QF019019019019019019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		QF020020020020020020 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		QF021021021021021021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		QF022022022022022022 /* Questive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Questive.entitlements; sourceTree = "<group>"; };
+		QVAPP000000000000000 /* Questive.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Questive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		QVROOT00000000000000 = {
+			isa = PBXGroup;
+			children = (
+				QVGROUP00000000000001 /* Questive */,
+				QVPROD00000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		QVPROD00000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				QVAPP000000000000000 /* Questive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000001 /* Questive */ = {
+			isa = PBXGroup;
+			children = (
+				QF001001001001001001 /* QuestiveApp.swift */,
+				QVGROUP00000000000002 /* Models */,
+				QVGROUP00000000000003 /* Services */,
+				QVGROUP00000000000004 /* ViewModels */,
+				QVGROUP00000000000005 /* Views */,
+				QVGROUP00000000000009 /* Supporting */,
+				QVGROUP00000000000010 /* Resources */,
+			);
+			path = Questive;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				QF004004004004004004 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000003 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				QF005005005005005005 /* StoreKitManager.swift */,
+				QF006006006006006006 /* PremiumManager.swift */,
+				QF007007007007007007 /* ATTService.swift */,
+				QF008008008008008008 /* AttributionManager.swift */,
+				QF009009009009009009 /* AnalyticsService.swift */,
+				QF010010010010010010 /* GameEngine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000004 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				QF011011011011011011 /* QuestViewModel.swift */,
+				QF012012012012012012 /* CharacterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				QF003003003003003003 /* ContentView.swift */,
+				QVGROUP00000000000006 /* Quests */,
+				QVGROUP00000000000007 /* Character */,
+				QVGROUP00000000000008A /* Shop */,
+				QVGROUP00000000000008B /* Achievements */,
+				QVGROUP00000000000008C /* Premium */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000006 /* Quests */ = {
+			isa = PBXGroup;
+			children = (
+				QF013013013013013013 /* QuestListView.swift */,
+				QF014014014014014014 /* AddQuestView.swift */,
+			);
+			path = Quests;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000007 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				QF015015015015015015 /* CharacterView.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000008A /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				QF016016016016016016 /* ShopView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000008B /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				QF017017017017017017 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000008C /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				QF018018018018018018 /* PremiumView.swift */,
+			);
+			path = Premium;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000009 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				QF002002002002002002 /* AppDelegate.swift */,
+				QF022022022022022022 /* Questive.entitlements */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		QVGROUP00000000000010 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				QF019019019019019019 /* Assets.xcassets */,
+				QF020020020020020020 /* LaunchScreen.storyboard */,
+				QF021021021021021021 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		QVTARGET0000000000000 /* Questive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = QVCFGLIST000000000000 /* Build configuration list for PBXNativeTarget "Questive" */;
+			buildPhases = (
+				QVSOURCES0000000000000 /* Sources */,
+				QVRESOURCES000000000000 /* Resources */,
+				QVFRAMEWORKS000000000000 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Questive;
+			productName = Questive;
+			productReference = QVAPP000000000000000 /* Questive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		QVPROJECT000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					QVTARGET0000000000000 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = QVCFGLISTPROJ00000000 /* Build configuration list for PBXProject "Questive" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = QVROOT00000000000000;
+			productRefGroup = QVPROD00000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				QVTARGET0000000000000 /* Questive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		QVRESOURCES000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				QV019019019019019019 /* Assets.xcassets in Resources */,
+				QV020020020020020020 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		QVSOURCES0000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				QV001001001001001001 /* QuestiveApp.swift in Sources */,
+				QV002002002002002002 /* AppDelegate.swift in Sources */,
+				QV003003003003003003 /* ContentView.swift in Sources */,
+				QV004004004004004004 /* Models.swift in Sources */,
+				QV005005005005005005 /* StoreKitManager.swift in Sources */,
+				QV006006006006006006 /* PremiumManager.swift in Sources */,
+				QV007007007007007007 /* ATTService.swift in Sources */,
+				QV008008008008008008 /* AttributionManager.swift in Sources */,
+				QV009009009009009009 /* AnalyticsService.swift in Sources */,
+				QV010010010010010010 /* GameEngine.swift in Sources */,
+				QV011011011011011011 /* QuestViewModel.swift in Sources */,
+				QV012012012012012012 /* CharacterViewModel.swift in Sources */,
+				QV013013013013013013 /* QuestListView.swift in Sources */,
+				QV014014014014014014 /* AddQuestView.swift in Sources */,
+				QV015015015015015015 /* CharacterView.swift in Sources */,
+				QV016016016016016016 /* ShopView.swift in Sources */,
+				QV017017017017017017 /* AchievementsView.swift in Sources */,
+				QV018018018018018018 /* PremiumView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		QVFRAMEWORKS000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		QVCFG_DEBUG000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Questive/Supporting/Questive.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Questive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.questive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+			};
+			name = Debug;
+		};
+		QVCFG_RELEASE00000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Questive/Supporting/Questive.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Questive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.questive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		QVCFG_PROJ_DEBUG0000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		QVCFG_PROJ_RELEASE000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERT = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		QVCFGLISTPROJ00000000 /* Build configuration list for PBXProject "Questive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				QVCFG_PROJ_DEBUG0000000 /* Debug */,
+				QVCFG_PROJ_RELEASE000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		QVCFGLIST000000000000 /* Build configuration list for PBXNativeTarget "Questive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				QVCFG_DEBUG000000000000 /* Debug */,
+				QVCFG_RELEASE00000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = QVPROJECT000000000000 /* Project object */;
+}
